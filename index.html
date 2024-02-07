@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="btns">
+            <button data-prev class="btn prev"><ion-icon name="chevron-back-outline"></ion-icon></button>
+            <button data-next class="btn next"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+        </div>
+        <div class="slider">
+            <div data-slide class="slide">
+                <img src="https://picsum.photos/id/237/600/400" alt="">
+            </div>
+            <div data-slide class="slide">
+                <img src="https://picsum.photos/id/238/600/400" alt="">
+            </div>
+            <div data-slide class="slide">
+                <img src="https://picsum.photos/id/239/600/400" alt="">
+            </div>
+            <div data-slide class="slide">
+                <img src="https://picsum.photos/id/240/600/400" alt="">
+            </div>
+        </div>
+        <div data-dots class="dots">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
